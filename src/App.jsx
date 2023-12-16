@@ -1,5 +1,6 @@
 import Tratamentos from './components/Tratamentos'
-import Hero from './components/hero'
+import Hero from './components/Hero'
+
 
 function App() {
   return (
@@ -11,3 +12,4 @@ function App() {
 }
 
 export default App
+ 
