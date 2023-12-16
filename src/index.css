@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-bg {
+  background-image: url('assets/bg-hero.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-button-gradient {
+  background: linear-gradient(89deg, #00D1BF 0.95%, #30B5AA 99.15%);
+}
+
+.blur-hero {
+  background: linear-gradient(180deg, #80A8D5 0%, #38A4D3 100%);
+  filter: blur(15.400001525878906px);
+}
