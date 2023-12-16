@@ -8,14 +8,14 @@ import CardHero from '../CardHero'
 
 const Hero = () => {
   return (
-    <div className="relative hero-bg w-full flex flex-col lg:flex-row">
-      <div className="lg:w-1/2 text-center lg:text-start p-[30px] xl:p-[50px] 2xl:p-[100px] flex flex-col gap-[20px] text-white">
+    <div className="relative hero-bg w-full flex flex-col lg:flex-row p-[10px]">
+      <div className="lg:w-1/2 text-center lg:text-start xl:p-[50px] 2xl:p-[100px] flex flex-col gap-[20px] text-white">
         <img
           src={logo}
           alt="tethcare logo"
           className="w-[180px] self-center lg:self-start"
         />
-        <h1 className="text-[30px] lg:text-[40px] font-bold leading-tight">
+        <h1 className="text-[28px] sm:text-[32px] lg:text-[40px] font-bold leading-tight">
           Sorria com Confiança: Cuidado Odontológico de Qualidade
         </h1>
         <p>
@@ -25,7 +25,7 @@ const Hero = () => {
         <Button className="self-center lg:self-start hero-button-gradient w-1/2">
           Agendar Consulta
         </Button>
-        <div className="flex w-full p-10 lg:w-fit gap-[20px] absolute z-10 left-1/2 lg:-bottom-10 bottom-0 -translate-x-1/2 translate-y-1/2">
+        <div className="flex w-full sm:p-[10px] lg:w-fit gap-[5px] absolute z-10 left-1/2 lg:-bottom-10 bottom-0 -translate-x-1/2 translate-y-1/2">
           <CardHero
             icon={sorriso}
             number="1000"
