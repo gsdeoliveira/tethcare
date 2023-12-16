@@ -1,16 +1,20 @@
-import logo from '../assets/Logo.png'
-import hero from '../assets/hero-person (1).png'
-import sorriso from '../assets/sorriso.png'
-import certificado from '../assets/certificado.png'
-import experiencia from '../assets/experiencia.png'
-import Button from './Button'
-import CardHero from './CardHero'
+import logo from '../../assets/Logo.png'
+import hero from '../../assets/hero-person.png'
+import sorriso from '../../assets/sorriso.png'
+import certificado from '../../assets/certificado.png'
+import experiencia from '../../assets/experiencia.png'
+import Button from '../Button'
+import CardHero from '../CardHero'
 
 const Hero = () => {
   return (
     <div className="relative hero-bg w-full flex flex-col lg:flex-row">
       <div className="lg:w-1/2 text-center lg:text-start p-[30px] xl:p-[50px] 2xl:p-[100px] flex flex-col gap-[20px] text-white">
-        <img src={logo} alt="tethcare logo" className="w-[180px]" />
+        <img
+          src={logo}
+          alt="tethcare logo"
+          className="w-[180px] self-center lg:self-start"
+        />
         <h1 className="text-[30px] lg:text-[40px] font-bold leading-tight">
           Sorria com Confiança: Cuidado Odontológico de Qualidade
         </h1>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardHero = ({ icon, number, description, altText }) => {
   return (
-    <div className="relative z-10 bg-bluePrimary/20 flex flex-1 flex-col p-[10px] items-center justify-between border-4 border-cyanPrimary rounded-[10px]">
+    <div className="relative z-10 w-full lg:w-fit bg-bluePrimary/20 flex flex-1 flex-col p-[10px] items-center justify-between border-4 border-cyanPrimary rounded-[10px]">
       <img src={icon} alt={altText} className="w-[48px]" />
       <p className="text-[28px] relative  font-extrabold">
         <span className="absolute -left-5">+</span>

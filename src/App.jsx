@@ -1,6 +1,5 @@
-import Tratamentos from './components/Tratamentos'
-import Hero from './components/Hero'
-
+import Tratamentos from './components/sections/Tratamentos'
+import Hero from './components/sections/Hero'
 
 function App() {
   return (
@@ -12,4 +11,3 @@ function App() {
 }
 
 export default App
- 
