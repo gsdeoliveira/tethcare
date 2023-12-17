@@ -8,7 +8,8 @@ import CardHero from '../CardHero'
 
 const Hero = () => {
   return (
-    <div className="relative hero-bg w-full flex flex-col lg:flex-row p-[10px]">
+    <div className="relative z-20 hero-bg w-full flex flex-col lg:flex-row p-[10px]">
+      <div className="w-[2200px] h-[100px] blur-hero absolute z-10 -bottom-[50px] -ml-[100px]"></div>
       <div className="lg:w-1/2 text-center lg:text-start xl:p-[50px] 2xl:p-[100px] flex flex-col gap-[20px] text-white">
         <img
           src={logo}
@@ -25,7 +26,7 @@ const Hero = () => {
         <Button className="self-center lg:self-start hero-button-gradient w-1/2">
           Agendar Consulta
         </Button>
-        <div className="flex w-full sm:p-[10px] lg:w-fit gap-[5px] absolute z-10 left-1/2 lg:-bottom-10 bottom-0 -translate-x-1/2 translate-y-1/2">
+        <div className="flex justify-evenly p-[5px] gap-[3px] sm:gap-[10px] w-full sm:p-[10px] lg:w-fit absolute z-50 left-1/2 lg:-bottom-0 bottom-0 -translate-x-1/2 translate-y-1/2">
           <CardHero
             icon={sorriso}
             number="1000"
