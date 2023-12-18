@@ -1,6 +1,6 @@
 const CardTratamento = ({ icone, title, description }) => {
   return (
-    <div className="bg-cyanPrimary shadow-card max-w-[350px] h-[320px] relative p-[20px] rounded-[10px] flex flex-col items-center justify-center gap-[20px]">
+    <div className="bg-cyanPrimary shadow-card max-w-[450px] h-[320px] relative p-[20px] rounded-[10px] flex flex-col items-center justify-center gap-[20px]">
       <img src={icone} alt="" className="w-[150px]" />
       <div className="text-center flex flex-col gap-[20px] relative z-10">
         <h3 className="text-white text-[20px] font-bold">{title}</h3>

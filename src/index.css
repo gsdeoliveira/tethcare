@@ -37,8 +37,9 @@ p {
 }
 
 .blur-hero {
-  background: linear-gradient(180deg, #80A8D5 0%, #38A4D3 100%);
-  filter: blur(10.400001525878906px);
+  background: linear-gradient(180deg, #82B3DE 0%, #18A8D5 100%);
+  filter: blur(18.400001525878906px);
+  opacity: 2;
 }
 
 .bg-sections {

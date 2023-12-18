@@ -9,7 +9,7 @@ import Button from '../Button'
 
 const Tratamentos = () => {
   return (
-    <div className="w-full pt-[300px] pb-[150px] bg-espaco relative bottom-[150px] p-[10px]">
+    <div className="w-full pt-[300px] pb-[150px] bg-espaco relative bottom-[150px] p-[10px] sm:px-[50px] xl:px-[100px]">
       <h2 className="text-center text-white">Nossos Tratamentos</h2>
       <p className="text-white text-center mt-[10px]">
         Na Nossa Clínica, Oferecemos uma Gama Completa de Tratamentos
