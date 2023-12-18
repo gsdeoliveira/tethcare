@@ -48,7 +48,7 @@ const Tratamentos = () => {
             description="Experimente o Alívio e a Segurança com Nossas Placas Odontológicas Sob Medida."
           />
         </div>
-        <Button className="self-center w-[350px] my-10 bg-cyanPrimary">
+        <Button className="self-center w-[300px] lg:w-[350px] my-10 bg-cyanPrimary">
           Quero Agendar
         </Button>
       </div>

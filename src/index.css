@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --swiper-navigation-color: white;
+}
+
 .hero-bg {
   background-image: url('assets/bg-hero.webp');
   background-size: cover;
@@ -9,11 +13,15 @@
 }
 
 h2 {
-  @apply leading-[1.1] text-[24px] sm:text-[30px] font-bold
+  @apply leading-[1.1] text-[30px] font-bold
 }
 
-h1, h3, h4, h5, h6 p {
-  line-height: 1.1;
+h1, h3, h4, h5, h6, p {
+  line-height: 1.3;
+}
+
+p {
+  @apply text-[14px] sm:text-[16px]
 }
 
 .shadow-card {
@@ -30,5 +38,9 @@ h1, h3, h4, h5, h6 p {
 
 .blur-hero {
   background: linear-gradient(180deg, #80A8D5 0%, #38A4D3 100%);
-  filter: blur(15.400001525878906px);
+  filter: blur(10.400001525878906px);
+}
+
+.bg-sections {
+  background-image: url(./assets/bg-sections.png);
 }

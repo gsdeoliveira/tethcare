@@ -8,15 +8,15 @@ import CardHero from '../CardHero'
 
 const Hero = () => {
   return (
-    <div className="relative z-20 hero-bg w-full flex flex-col lg:flex-row p-[10px]">
-      <div className="w-[2200px] h-[100px] blur-hero absolute z-10 -bottom-[50px] -ml-[100px]"></div>
+    <div className="relative z-20 hero-bg w-full flex flex-col lg:flex-row p-[10px] sm:p-[50px]">
+      <div className="w-[2200px] h-[100px] blur-hero absolute z-20 -bottom-[25px] -ml-[100px]"></div>
       <div className="lg:w-1/2 text-center lg:text-start xl:p-[50px] 2xl:p-[100px] flex flex-col gap-[20px] text-white">
         <img
           src={logo}
           alt="tethcare logo"
           className="w-[180px] self-center lg:self-start"
         />
-        <h1 className="text-[28px] sm:text-[32px] lg:text-[40px] font-bold leading-tight">
+        <h1 className="text-[32px] lg:text-[40px] font-bold leading-tight">
           Sorria com Confiança: Cuidado Odontológico de Qualidade
         </h1>
         <p>
