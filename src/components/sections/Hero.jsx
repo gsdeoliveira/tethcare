@@ -12,10 +12,10 @@ const Hero = () => {
           alt="tethcare logo"
           className="w-[180px] self-center lg:self-start"
         />
-        <h1 className="text-[32px] xl:text-[40px] font-bold leading-tight">
+        <h1 className="text-[32px] xl:text-[40px] px-[10px] font-bold leading-tight">
           Sorria com Confiança: Cuidado Odontológico de Qualidade
         </h1>
-        <p>
+        <p className="px-[10px]">
           No TethCare, nossa equipe de especialistas em odontologia está
           comprometida em proporcionar um atendimento odontológico excepcional.
         </p>

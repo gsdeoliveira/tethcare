@@ -4,8 +4,10 @@ const PerguntasFrequentes = () => {
   return (
     <section className="flex flex-col gap-[30px] sm:gap-[50px] mt-[150px] p-[10px] sm:px-[50px] xl:px-[120px]">
       <div className="flex flex-col gap-[10px]">
-        <h2 className="text-bluePrimary text-center">Perguntas Frequentes</h2>
-        <p className="text-darkGray text-center">
+        <h2 className="text-bluePrimary text-center px-[10px]">
+          Perguntas Frequentes
+        </h2>
+        <p className="text-darkGray text-center px-[10px]">
           Aqui estão algumas das nossas perguntas frequentes. Se você tiver
           outras perguntas, sinta-se à vontade para nos enviar um e-mail.
         </p>

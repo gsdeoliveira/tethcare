@@ -6,20 +6,20 @@ import joao from '../../assets/joao.png'
 
 const NossaEquipe = () => {
   return (
-    <section className="flex flex-col lg:flex-row gap-[30px] lg:gap-[20px] p-[10px] sm:px-[50px] xl:px-[100px] text-darkGray">
+    <section className="flex flex-col mt-[50px] lg:flex-row gap-[30px] lg:gap-[20px] p-[10px] sm:px-[50px] xl:px-[100px] text-darkGray">
       <div className="flex flex-col justify-end gap-[10px] lg:gap-[20px] text-center lg:text-start">
-        <h2 className="text-[16px] font-bold uppercase tracking-[3px] text-bluePrimary">
+        <h2 className="text-[16px] px-[10px] font-bold uppercase tracking-[3px] text-bluePrimary">
           Nossa Equipe
         </h2>
-        <h3 className="leading-[1.1] text-[30px] lg:text-[24px] font-bold">
+        <h3 className="leading-[1.1] px-[10px] text-[30px] lg:text-[24px] font-bold">
           Conheça Quem Está Por Trás da Nossa Excelência
         </h3>
-        <p>
+        <p className="px-[10px]">
           Na TethCare, temos o privilégio de contar com uma equipe de
           profissionais apaixonados pela saúde bucal e pelo bem-estar dos nossos
           pacientes.
         </p>
-        <p>
+        <p className="px-[10px]">
           Cada membro da nossa equipe é cuidadosamente selecionado por sua
           experiência, conhecimento e comprometimento em proporcionar um
           atendimento odontológico excepcional.
