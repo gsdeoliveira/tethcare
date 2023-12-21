@@ -45,3 +45,17 @@ p {
 .bg-sections {
   background-image: url(./assets/bg-sections.png);
 }
+
+/* Esconde o scrollbar para Chrome, Safari e Opera */
+.gallery-wrapper::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+/* Esconde o scrollbar para IE, Edge e Firefox */
+.gallery-wrapper {
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
