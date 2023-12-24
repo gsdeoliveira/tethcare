@@ -2,7 +2,10 @@ import Faq from '../Faq'
 
 const PerguntasFrequentes = () => {
   return (
-    <section className="flex flex-col gap-[30px] sm:gap-[50px] mt-[150px] p-[10px] sm:px-[50px] xl:px-[120px]">
+    <section
+      className="flex flex-col gap-[30px] sm:gap-[50px] mt-[150px] p-[10px] sm:px-[50px] xl:px-[120px]"
+      id="perguntas-frequentes"
+    >
       <div className="flex flex-col gap-[10px]">
         <h2 className="text-bluePrimary text-center px-[10px]">
           Perguntas Frequentes

@@ -6,7 +6,10 @@ import joao from '../../assets/joao.png'
 
 const NossaEquipe = () => {
   return (
-    <section className="flex flex-col mt-[50px] lg:flex-row gap-[30px] lg:gap-[20px] p-[10px] sm:px-[50px] xl:px-[100px] text-darkGray">
+    <section
+      className="flex flex-col mt-[50px] lg:flex-row gap-[30px] lg:gap-[20px] p-[10px] sm:px-[50px] xl:px-[100px] text-darkGray"
+      id="nossa-equipe"
+    >
       <div className="flex flex-col justify-end gap-[10px] lg:gap-[20px] text-center lg:text-start">
         <h2 className="text-[16px] px-[10px] font-bold uppercase tracking-[3px] text-bluePrimary">
           Nossa Equipe

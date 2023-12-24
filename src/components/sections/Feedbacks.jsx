@@ -36,7 +36,10 @@ const Feedbacks = () => {
   }
 
   return (
-    <section className="p-[10px] sm:px-[50px] xl:px-[100px] mt-[120px]">
+    <section
+      className="p-[10px] sm:px-[50px] xl:px-[100px] mt-[120px]"
+      id="feedbacks"
+    >
       <h2 className="text-center text-bluePrimary px-[10px]">Feedbacks</h2>
       <p className="text-darkGray text-center px-[10px] mt-[10px]">
         Veja o que os nossos clientes dizem sobre nós

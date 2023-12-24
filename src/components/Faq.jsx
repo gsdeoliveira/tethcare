@@ -7,7 +7,7 @@ const Faq = ({ question, answer }) => {
   return (
     <div
       className={`${
-        isOpen ? 'bg-cyanPrimary/50' : 'bg-cyanPrimary/30'
+        isOpen ? 'bg-bluePrimary/50' : 'bg-bluePrimary/30'
       } flex flex-col px-[20px] py-[10px] rounded-[10px]`}
     >
       <div

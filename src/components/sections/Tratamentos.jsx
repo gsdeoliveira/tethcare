@@ -9,7 +9,10 @@ import Button from '../Button'
 
 const Tratamentos = () => {
   return (
-    <div className="w-full mt-[120px] pb-[150px] relative p-[10px] sm:px-[50px] xl:px-[100px]">
+    <section
+      className="w-full mt-[120px] pb-[150px] relative p-[10px] sm:px-[50px] xl:px-[100px]"
+      id="tratamentos"
+    >
       <h2 className="text-center text-bluePrimary px-[10px]">
         Nossos Tratamentos
       </h2>
@@ -54,7 +57,7 @@ const Tratamentos = () => {
           Quero Agendar
         </Button>
       </div>
-    </div>
+    </section>
   )
 }
 

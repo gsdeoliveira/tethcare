@@ -7,7 +7,7 @@
 }
 
 .hero-bg {
-  background-image: url('assets/bg-hero.webp');
+  background-image: url('assets/background-hero.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -48,13 +48,16 @@ p {
 }
 
 .blur-hero {
-  background: linear-gradient(180deg, #82B3DE 0%, #EEE 100%);
-  filter: blur(18.400001525878906px);
-  opacity: 2;
+  background: linear-gradient(180deg, #6FB9CB 0%, #EEE 100%);
+filter: blur(18.400001525878906px);
 }
 
 .bg-sections {
   background-image: url(./assets/bg-sections.png);
+}
+
+.transition-bg {
+  transition: background-color 1s ease;
 }
 
 *,

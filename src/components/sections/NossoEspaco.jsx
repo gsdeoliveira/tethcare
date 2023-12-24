@@ -2,7 +2,7 @@ import Slider from '../Slider'
 
 const NossoEspaco = () => {
   return (
-    <div className="px-[10px] sm:px-[50px] xl:px-[100px]">
+    <section className="px-[10px] sm:px-[50px] xl:px-[100px]" id="nosso-espaco">
       <h2 className="text-bluePrimary text-center px-[10px]">
         Conheça Nosso Espaço
       </h2>
@@ -11,7 +11,7 @@ const NossoEspaco = () => {
         Tecnologia.
       </p>
       <Slider />
-    </div>
+    </section>
   )
 }
 
