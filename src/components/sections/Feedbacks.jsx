@@ -42,7 +42,7 @@ const Feedbacks = () => {
         Veja o que os nossos clientes dizem sobre nós
       </p>
       <div
-        className="flex w-full scroll-smooth overflow-auto touch-none hide-scrollbar"
+        className="flex w-full scroll-smooth overflow-auto touch-pan-y hide-scrollbar"
         ref={scrollRef}
         draggable={false}
       >
