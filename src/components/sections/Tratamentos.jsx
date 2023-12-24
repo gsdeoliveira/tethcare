@@ -9,9 +9,11 @@ import Button from '../Button'
 
 const Tratamentos = () => {
   return (
-    <div className="w-full pt-[300px] pb-[150px] bg-espaco relative bottom-[150px] p-[10px] sm:px-[50px] xl:px-[100px]">
-      <h2 className="text-center text-white px-[10px]">Nossos Tratamentos</h2>
-      <p className="text-white text-center mt-[10px] px-[10px]">
+    <div className="w-full mt-[120px] pb-[150px] relative p-[10px] sm:px-[50px] xl:px-[100px]">
+      <h2 className="text-center text-bluePrimary px-[10px]">
+        Nossos Tratamentos
+      </h2>
+      <p className="text-darkGray text-center mt-[10px] px-[10px]">
         Na Nossa Clínica, Oferecemos uma Gama Completa de Tratamentos
         Odontológicos, Atendendo a Todas as Suas Necessidades.
       </p>
@@ -48,7 +50,7 @@ const Tratamentos = () => {
             description="Experimente o Alívio e a Segurança com Nossas Placas Odontológicas Sob Medida."
           />
         </div>
-        <Button className="self-center w-[300px] lg:w-[350px] my-10 bg-cyanPrimary">
+        <Button className="self-center w-[300px] lg:w-[350px] my-10 bg-bluePrimary">
           Quero Agendar
         </Button>
       </div>

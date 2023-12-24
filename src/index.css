@@ -12,6 +12,17 @@
   background-repeat: no-repeat;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 h2 {
   @apply leading-[1.1] text-[30px] font-bold
 }
@@ -37,7 +48,7 @@ p {
 }
 
 .blur-hero {
-  background: linear-gradient(180deg, #82B3DE 0%, #18A8D5 100%);
+  background: linear-gradient(180deg, #82B3DE 0%, #EEE 100%);
   filter: blur(18.400001525878906px);
   opacity: 2;
 }
@@ -148,7 +159,7 @@ body {
 .swiper-slide img {
   width: 37rem;
   height: 42rem;
-  border-radius: 2rem;
+  border-radius: 10px;
   object-fit: cover;
 }
 

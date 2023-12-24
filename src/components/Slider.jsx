@@ -37,22 +37,46 @@ function Slider() {
         className="swiper_container"
       >
         <SwiperSlide>
-          <img src={image1} alt="imagem consultório" className="object-cover" />
+          <img
+            src={image1}
+            alt="imagem consultório"
+            className="object-cover rounded-[10px]"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image2} alt="imagem consultório" className="object-cover" />
+          <img
+            src={image2}
+            alt="imagem consultório"
+            className="object-cover rounded-[10px]"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image3} alt="imagem consultório" className="object-cover" />
+          <img
+            src={image3}
+            alt="imagem consultório"
+            className="object-cover rounded-[10px]"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image1} alt="imagem consultório" className="object-cover" />
+          <img
+            src={image1}
+            alt="imagem consultório"
+            className="object-cover rounded-[10px]"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image2} alt="imagem consultório" className="object-cover" />
+          <img
+            src={image2}
+            alt="imagem consultório"
+            className="object-cover rounded-[10px]"
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={image3} alt="imagem consultório" className="object-cover" />
+          <img
+            src={image3}
+            alt="imagem consultório"
+            className="object-cover rounded-[10px]"
+          />
         </SwiperSlide>
 
         <div className="slider-controler">
