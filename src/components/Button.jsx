@@ -9,7 +9,9 @@ const Button = ({ children, className, ...props }) => {
       )}
       {...props}
     >
-      {children}
+      <a href="https://wa.me/5585986638595" target="_blank" rel="noreferrer">
+        {children}
+      </a>
     </button>
   )
 }

@@ -32,14 +32,14 @@ const Navbar = () => {
   return (
     <div>
       <div
-        className={`fixed transition-bg ${
+        className={`fixed max-w-[1440px] transition-bg ${
           scrollY >= 600 ? 'bg-bluePrimary/50' : 'bg-transparent'
-        } z-40 flex items-center justify-between w-full px-[20px] sm:px-[50px] h-[70px] lg:h-[100px]`}
+        } z-40 flex items-center justify-between w-full px-[20px] sm:px-[50px] h-[50px]`}
       >
         <img
           src={logo}
           alt="tethcare logo"
-          className="w-[180px] self-center lg:self-center"
+          className="w-[120px] self-center lg:self-center"
         />
         <div className="hidden lg:flex">
           <ul className="flex gap-[20px] text-white font-bold">

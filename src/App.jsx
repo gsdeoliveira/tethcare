@@ -5,6 +5,8 @@ import PerguntasFrequentes from './components/sections/PerguntasFrequentes'
 import NossoEspaco from './components/sections/NossoEspaco'
 import Feedbacks from './components/sections/Feedbacks'
 import PorqueNosEscolher from './components/sections/PorqueNosEscolher'
+import Cta from './components/sections/Cta'
+import Footer from './components/sections/Footer'
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <NossaEquipe />
         <Feedbacks />
         <PerguntasFrequentes />
+        <Cta />
       </div>
+      <Footer />
     </div>
   )
 }

@@ -51,24 +51,92 @@ const Feedbacks = () => {
       >
         <Testimonial
           image={feedback1}
+          nome="Isabella Oliveira"
+          profissao="Designer de Interiores"
           scrollNext={scrollNext}
           scrollPrev={scrollPrev}
-        />
+        >
+          <p>
+            Minha jornada com a TethCare foi verdadeiramente transformadora.
+            Durante anos, eu sofria com a vergonha de sorrir devido aos meus
+            dentes amarelados. Isso afetou minha confiança e minha disposição
+            para interagir socialmente.
+          </p>
+          <p>
+            Fui recebida na clínica com uma calorosa equipe, especialmente pela
+            Dra. Ana Oliveira. Ela não apenas entendeu minhas preocupações, mas
+            também ofereceu soluções personalizadas para clareamento dental. Ao
+            longo do tratamento, ela me guiou com profissionalismo e compaixão,
+            sempre certificando-se de que eu me sentisse confortável.
+          </p>
+        </Testimonial>
         <Testimonial
           image={feedback2}
+          nome="Guilherme Lopes"
+          profissao="Arquiteto"
           scrollNext={scrollNext}
           scrollPrev={scrollPrev}
-        />
+        >
+          <p>
+            Minha experiência na TethCare foi incrível! Durante muito tempo,
+            lidei com a insatisfação em relação à estética do meu sorriso. A
+            equipe da clínica, liderada pela Dra. Ana Oliveira, não apenas
+            compreendeu minhas preocupações estéticas, mas também apresentou
+            soluções inovadoras para melhorar a aparência geral dos meus dentes.
+          </p>
+          <p>
+            Ao longo do tratamento, recebi orientação personalizada e atenção
+            especializada, o que fez toda a diferença. A abordagem profissional
+            e dedicada da Dra. Ana garantiu não apenas resultados estéticos
+            notáveis, mas também me fez sentir confiante e satisfeito com o meu
+            sorriso.
+          </p>
+        </Testimonial>
         <Testimonial
           image={feedback3}
+          nome="Eduardo Santos"
+          profissao="Estudante de Engenharia"
           scrollNext={scrollNext}
           scrollPrev={scrollPrev}
-        />
+        >
+          <p>
+            Minha experiência na TethCare foi verdadeiramente transformadora.
+            Além de receber tratamento odontológico de alta qualidade, encontrei
+            apoio compassivo para superar o medo de consultórios dentários. A
+            equipe, liderada pela Dra. Ana Oliveira, demonstrou uma atenção
+            excepcional às necessidades emocionais dos pacientes.
+          </p>
+          <p>
+            Antes de buscar a TethCare, eu evitava visitas ao dentista devido a
+            experiências passadas desagradáveis. No entanto, a abordagem gentil
+            e empática da Dra. Ana e de sua equipe mudou minha perspectiva.
+            Agora, encaro os cuidados odontológicos como uma parte positiva da
+            minha rotina de saúde.
+          </p>
+        </Testimonial>
         <Testimonial
           image={feedback4}
+          nome="Gabriela Lima"
+          profissao="Estudante de Psicologia"
           scrollNext={scrollNext}
           scrollPrev={scrollPrev}
-        />
+        >
+          <p>
+            Minha jornada na TethCare foi além das minhas expectativas. Antes do
+            tratamento, eu enfrentava problemas persistentes de sensibilidade
+            dentária que afetavam minha qualidade de vida. Ao procurar a Dra.
+            Ana Oliveira, encontrei não apenas uma solução eficaz para a
+            sensibilidade, mas também uma equipe comprometida em meu bem-estar
+            geral.
+          </p>
+          <p>
+            A Dra. Ana não apenas tratou minha sensibilidade dentária com
+            eficácia, mas também se dedicou a educar-me sobre práticas
+            odontológicas preventivas. Sua abordagem holística e atenção aos
+            detalhes fizeram da TethCare minha escolha definitiva para cuidados
+            odontológicos.
+          </p>
+        </Testimonial>
       </div>
     </section>
   )

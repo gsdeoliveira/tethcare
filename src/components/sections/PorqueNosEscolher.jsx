@@ -1,5 +1,9 @@
 import illustration from '../../assets/illustration.svg'
 import experiencia from '../../assets/experiencia.png'
+import empatia from '../../assets/empatia.png'
+import personalizado from '../../assets/personalizado.png'
+import inovacao from '../../assets/inovacao.png'
+import Card from '../Card'
 
 const PorqueNosEscolher = () => {
   return (
@@ -19,46 +23,27 @@ const PorqueNosEscolher = () => {
         />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center gap-[20px]">
-        <div className="bg-bluePrimary rounded-[10px] p-[20px] max-w-[370px] max-h-[220px] flex flex-col gap-[5px]">
-          <img src={experiencia} alt="" className="w-fit" />
-          <h3 className="text-white text-[18px] font-bold">
-            Experiência Profissional
-          </h3>
-          <p className="text-white">
-            Há 10 anos, a nossa clínica odontológica tem sido uma referência em
-            cuidados dentários de qualidade.
-          </p>
-        </div>
-        <div className="bg-bluePrimary rounded-[10px] p-[20px] max-w-[370px] max-h-[220px] flex flex-col gap-[5px]">
-          <img src={experiencia} alt="" className="w-fit" />
-          <h3 className="text-white text-[18px] font-bold">
-            Experiência Profissional
-          </h3>
-          <p className="text-white">
-            Há 10 anos, a nossa clínica odontológica tem sido uma referência em
-            cuidados dentários de qualidade.
-          </p>
-        </div>
-        <div className="bg-bluePrimary rounded-[10px] p-[20px] max-w-[370px] max-h-[220px] flex flex-col gap-[5px]">
-          <img src={experiencia} alt="" className="w-fit" />
-          <h3 className="text-white text-[18px] font-bold">
-            Experiência Profissional
-          </h3>
-          <p className="text-white">
-            Há 10 anos, a nossa clínica odontológica tem sido uma referência em
-            cuidados dentários de qualidade.
-          </p>
-        </div>
-        <div className="bg-bluePrimary rounded-[10px] p-[20px] max-w-[370px] max-h-[220px] flex flex-col gap-[5px]">
-          <img src={experiencia} alt="" className="w-fit" />
-          <h3 className="text-white text-[18px] font-bold">
-            Experiência Profissional
-          </h3>
-          <p className="text-white">
-            Há 10 anos, a nossa clínica odontológica tem sido uma referência em
-            cuidados dentários de qualidade.
-          </p>
-        </div>
+        <Card
+          image={experiencia}
+          title="Experiência Profissional"
+          description="Há 10 anos, a nossa clínica odontológica tem sido uma referência em
+            cuidados dentários de qualidade."
+        />
+        <Card
+          image={personalizado}
+          title="Atendimento Personalizado"
+          description="Na TethCare, entendemos que cada sorriso é único. Nossa abordagem é personalizada e individualizada."
+        />
+        <Card
+          image={empatia}
+          title="Atendimento Humanizado"
+          description="Além de nossa experiência técnica, nos orgulhamos de proporcionar um atendimento verdadeiramente humano."
+        />
+        <Card
+          image={inovacao}
+          title="Inovação Contínua"
+          description="Na TethCare, acreditamos na importância da inovação constante. Mantemos nossos padrões na vanguarda da odontologia, incorporando as últimas tecnologias e metodologias."
+        />
       </div>
     </section>
   )
