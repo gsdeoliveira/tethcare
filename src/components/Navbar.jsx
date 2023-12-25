@@ -43,19 +43,19 @@ const Navbar = () => {
         />
         <div className="hidden lg:flex">
           <ul className="flex gap-[20px] text-white font-bold">
-            <li className="hover:text-bluePrimary transition-all">
+            <li className="hover:text-cyanPrimary transition-all">
               <a href="#tratamentos">Tratamentos</a>
             </li>
-            <li className="hover:text-bluePrimary transition-all">
+            <li className="hover:text-cyanPrimary transition-all">
               <a href="#nosso-espaco">Nosso Espaço</a>
             </li>
-            <li className="hover:text-bluePrimary transition-all">
+            <li className="hover:text-cyanPrimary transition-all">
               <a href="#nossa-equipe">Nossa Equipe</a>
             </li>
-            <li className="hover:text-bluePrimary transition-all">
+            <li className="hover:text-cyanPrimary transition-all">
               <a href="#feedbacks">Feedbacks</a>
             </li>
-            <li className="hover:text-bluePrimary transition-all">
+            <li className="hover:text-cyanPrimary transition-all">
               <a href="#perguntas-frequentes">Perguntas Frequentes</a>
             </li>
           </ul>
@@ -75,31 +75,31 @@ const Navbar = () => {
         <div className="mt-[120px]">
           <ul className="flex flex-col items-center mt-[50px] text-[28px] gap-[20px] text-white font-bold">
             <li
-              className="hover:text-bluePrimary transition-all"
+              className="hover:text-cyanPrimary transition-all"
               onClick={toggleMenu}
             >
               <a href="#tratamentos">Tratamentos</a>
             </li>
             <li
-              className="hover:text-bluePrimary transition-all"
+              className="hover:text-cyanPrimary transition-all"
               onClick={toggleMenu}
             >
               <a href="#nosso-espaco">Nosso Espaço</a>
             </li>
             <li
-              className="hover:text-bluePrimary transition-all"
+              className="hover:text-cyanPrimary transition-all"
               onClick={toggleMenu}
             >
               <a href="#nossa-equipe">Nossa Equipe</a>
             </li>
             <li
-              className="hover:text-bluePrimary transition-all"
+              className="hover:text-cyanPrimary transition-all"
               onClick={toggleMenu}
             >
               <a href="#feedbacks">Feedbacks</a>
             </li>
             <li
-              className="hover:text-bluePrimary transition-all"
+              className="hover:text-cyanPrimary transition-all"
               onClick={toggleMenu}
             >
               <a href="#perguntas-frequentes">Perguntas Frequentes</a>

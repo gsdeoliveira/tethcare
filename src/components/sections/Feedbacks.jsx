@@ -1,7 +1,7 @@
-import feedback1 from '../../assets/feedback1.jpg'
-import feedback2 from '../../assets/feedback2.jpg'
-import feedback3 from '../../assets/feedback3.jpg'
-import feedback4 from '../../assets/feedback4.jpg'
+import feedback1 from '../../assets/feedback1.webp'
+import feedback2 from '../../assets/feedback2.webp'
+import feedback3 from '../../assets/feedback3.webp'
+import feedback4 from '../../assets/feedback4.webp'
 import { useRef, useState } from 'react'
 import Testimonial from '../Testimonial'
 

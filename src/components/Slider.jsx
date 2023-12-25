@@ -7,9 +7,9 @@ import 'swiper/css/navigation'
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules'
 
-import image1 from '../assets/image-slide-1.jpg'
-import image2 from '../assets/image-slide-2.jpg'
-import image3 from '../assets/image-slide-3.jpg'
+import image1 from '../assets/image-slide-1.webp'
+import image2 from '../assets/image-slide-2.webp'
+import image3 from '../assets/image-slide-3.webp'
 import arrow from '../assets/arrow.svg'
 
 function Slider() {

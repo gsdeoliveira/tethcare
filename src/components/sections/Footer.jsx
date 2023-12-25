@@ -6,7 +6,7 @@ import email from '../../assets/email.svg'
 const Footer = () => {
   return (
     <footer className="bg-cyanPrimary">
-      <div className="bg-cyanPrimary pt-[200px] sm:pt-[150px] pb-[50px] px-[30px] items-center lg:items-start flex flex-col md:flex-row  justify-center gap-[50px]">
+      <div className="bg-cyanPrimary pt-[200px] sm:pt-[150px] pb-[50px] px-[30px] items-center md:items-start flex flex-col md:flex-row  justify-center gap-[50px]">
         <div>
           <img src={logo} alt="" />
         </div>
