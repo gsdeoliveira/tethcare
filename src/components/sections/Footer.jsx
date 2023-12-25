@@ -83,16 +83,18 @@ const Footer = () => {
             Horários de Atendimento
           </h3>
           <div className="flex flex-col self-center md:self-start">
-            <p className="font-bold">Segunda - Sexta</p>
-            <p>07:00h - 18:00h</p>
+            <p className="font-bold text-center md:text-start">
+              Segunda - Sexta
+            </p>
+            <p className=" text-center md:text-start">07:00h - 18:00h</p>
           </div>
           <div className="flex flex-col self-center md:self-start">
-            <p className="font-bold">Sábado</p>
-            <p>07:00h - 17:00h</p>
+            <p className="font-bold text-center md:text-start">Sábado</p>
+            <p className=" text-center md:text-start">07:00h - 17:00h</p>
           </div>
-          <div className="flex flex-col self-center md:self-start">
-            <p className="font-bold">Domingo</p>
-            <p>07:00h - 12:00h</p>
+          <div className="flex flex-col self-center text-center md:self-start">
+            <p className="font-bold text-center md:text-start">Domingo</p>
+            <p className=" text-center md:text-start">07:00h - 12:00h</p>
           </div>
         </div>
       </div>

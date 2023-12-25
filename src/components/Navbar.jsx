@@ -106,10 +106,10 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="flex justify-center gap-[30px] mt-[100px]">
-            <img src={whatsapp} alt="whatsapp" className="w-[50px]" />
-            <img src={facebook} alt="facebook" className="w-[50px]" />
-            <img src={instagram} alt="instagram" className="w-[50px]" />
-            <img src={twitter} alt="twitter" className="w-[50px]" />
+            <img src={whatsapp} alt="whatsapp" className="w-[40px]" />
+            <img src={facebook} alt="facebook" className="w-[40px]" />
+            <img src={instagram} alt="instagram" className="w-[40px]" />
+            <img src={twitter} alt="twitter" className="w-[40px]" />
           </div>
         </div>
       </div>
