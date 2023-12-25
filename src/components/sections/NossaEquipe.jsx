@@ -7,7 +7,7 @@ import joao from '../../assets/joao.webp'
 const NossaEquipe = () => {
   return (
     <section
-      className="flex flex-col mt-[50px] lg:flex-row gap-[30px] lg:gap-[20px] p-[10px] sm:px-[50px] xl:px-[100px] text-darkGray"
+      className="flex flex-col mt-[120px] lg:flex-row gap-[30px] lg:gap-[20px] p-[10px] sm:px-[50px] xl:px-[100px] 2xl:px-[10px] 3xl:px-[100px] text-darkGray"
       id="nossa-equipe"
     >
       <div className="flex flex-col justify-end gap-[10px] lg:gap-[20px] text-center lg:text-start">
@@ -27,7 +27,7 @@ const NossaEquipe = () => {
           experiência, conhecimento e comprometimento em proporcionar um
           atendimento odontológico excepcional.
         </p>
-        <Button className="bg-bluePrimary text-white self-center hidden lg:flex">
+        <Button className="bg-bluePrimary text-white self-center lg:self-start hidden lg:flex">
           Quero Agendar
         </Button>
       </div>
@@ -48,7 +48,7 @@ const NossaEquipe = () => {
           description="Conheça o Dr. João Silva, nosso especialista em Ortodontia, com mais de 10 anos de experiência e Mestrado em Ortodontia"
         />
       </div>
-      <div className="self-center">
+      <div className="self-center lg:hidden">
         <Button className="bg-bluePrimary text-white flex lg:hidden">
           Quero Agendar
         </Button>

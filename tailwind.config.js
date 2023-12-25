@@ -16,6 +16,10 @@ export default {
         bold: 700,
         extrabold: 800,
       },
+      screens: {
+        '2xl': '1440px',
+        '3xl': '1720px',
+      },
     },
   },
   plugins: [],
