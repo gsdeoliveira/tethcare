@@ -1,4 +1,4 @@
-import logo from '../../assets/Logo.png'
+import logo from '../../assets/Logo.webp'
 import localizacao from '../../assets/localizacao.svg'
 import telefone from '../../assets/telefone.svg'
 import email from '../../assets/email.svg'

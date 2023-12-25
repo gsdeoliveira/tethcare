@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import logo from '../assets/Logo.png'
+import logo from '../assets/Logo.webp'
 import burger from '../assets/burger.svg'
 import close from '../assets/close.svg'
 import whatsapp from '../assets/whatsapp.svg'

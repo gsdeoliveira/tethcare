@@ -1,8 +1,8 @@
 import illustration from '../../assets/illustration.svg'
-import experiencia from '../../assets/experiencia.png'
-import empatia from '../../assets/empatia.png'
-import personalizado from '../../assets/personalizado.png'
-import inovacao from '../../assets/inovacao.png'
+import experiencia from '../../assets/experiencia.webp'
+import empatia from '../../assets/empatia.webp'
+import personalizado from '../../assets/personalizado.webp'
+import inovacao from '../../assets/inovacao.webp'
 import Card from '../Card'
 
 const PorqueNosEscolher = () => {

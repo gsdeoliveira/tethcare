@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import arrow from '../assets/arrow.png'
+import arrow from '../assets/arrow.webp'
 
 const Faq = ({ question, answer }) => {
   const [isOpen, setisOpen] = useState(false)

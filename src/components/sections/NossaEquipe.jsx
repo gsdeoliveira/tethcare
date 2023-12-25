@@ -1,8 +1,8 @@
 import CardEquipe from '../CardEquipe'
 import Button from '../Button'
-import pedro from '../../assets/pedro.png'
-import ana from '../../assets/ana.png'
-import joao from '../../assets/joao.png'
+import pedro from '../../assets/pedro.webp'
+import ana from '../../assets/ana.webp'
+import joao from '../../assets/joao.webp'
 
 const NossaEquipe = () => {
   return (

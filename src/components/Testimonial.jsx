@@ -1,5 +1,5 @@
-import aspas from '../assets/aspas.png'
-import arrow from '../assets/arrow.png'
+import aspas from '../assets/aspas.webp'
+import arrow from '../assets/arrow.webp'
 
 const Testimonial = ({
   image,

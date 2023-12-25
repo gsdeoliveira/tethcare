@@ -1,4 +1,4 @@
-import hero from '../../assets/hero-person.png'
+import hero from '../../assets/hero-person.webp'
 import Button from '../Button'
 import Navbar from '../Navbar'
 
