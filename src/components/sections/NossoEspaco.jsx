@@ -6,7 +6,7 @@ const NossoEspaco = () => {
       <h2 className="text-bluePrimary text-center px-[10px]">
         Conheça Nosso Espaço
       </h2>
-      <p className="text-darkGray text-center px-[10px] mt-[10px]">
+      <p className="text-darkGray text-center px-[10px] mt-[10px] mb-[50px]">
         Um Espaço Planejado para Cuidar do Seu Sorriso com Conforto e
         Tecnologia.
       </p>

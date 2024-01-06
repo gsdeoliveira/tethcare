@@ -19,6 +19,7 @@ const Faq = ({ question, answer }) => {
         </h3>
         <img
           src={arrow}
+          width={40}
           alt="arrow"
           className={`${
             isOpen ? 'rotate-[270deg]' : 'rotate-180'

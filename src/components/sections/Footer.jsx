@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="bg-cyanPrimary">
       <div className="bg-cyanPrimary pt-[200px] sm:pt-[150px] pb-[50px] px-[30px] items-center md:items-start flex flex-col md:flex-row  justify-center gap-[50px]">
         <div>
-          <img src={logo} alt="" />
+          <img src={logo} width={212} alt="TethCare logo" />
         </div>
         <div className="text-darkGray flex flex-col gap-[10px] text-center md:text-start">
           <h3 className="text-[24px] font-bold">Entre em Contato</h3>

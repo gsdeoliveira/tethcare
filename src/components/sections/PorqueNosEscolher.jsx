@@ -39,6 +39,7 @@ const PorqueNosEscolher = () => {
         </p>
         <img
           src={illustration}
+          width={413}
           alt="ilustração odontologia"
           className="w-full"
         />

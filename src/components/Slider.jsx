@@ -1,52 +1,46 @@
-import { Carousel } from 'react-carousel-minimal'
 import image1 from '../assets/image-slide-1.webp'
 import image2 from '../assets/image-slide-2.webp'
 import image3 from '../assets/image-slide-3.webp'
 
-function Slider() {
-  const data = [
-    {
-      image: image1,
-    },
-    {
-      image: image2,
-    },
-    {
-      image: image3,
-    },
-  ]
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react'
 
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/navigation'
+
+// import required modules
+import { Navigation } from 'swiper/modules'
+
+export default function Slider() {
   return (
-    <div className="App">
-      <div style={{ textAlign: 'center' }}>
-        <div
-          style={{
-            padding: '0 20px',
-          }}
-        >
-          <Carousel
-            data={data}
-            time={3000}
-            width="850px"
-            height="500px"
-            radius="10px"
-            automatic={true}
-            dots={true}
-            pauseIconColor="white"
-            pauseIconSize="40px"
-            slideBackgroundColor="transparent"
-            slideImageFit="cover"
-            style={{
-              textAlign: 'center',
-              maxWidth: '850px',
-              maxHeight: '500px',
-              margin: '40px auto',
-            }}
+    <>
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <SwiperSlide>
+          <img
+            src={image1}
+            alt="imagem do consultório"
+            width={640}
+            className="w-full rounded-[10px]"
           />
-        </div>
-      </div>
-    </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={image2}
+            alt="imagem do consultório"
+            width={640}
+            className="w-full rounded-[10px]"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img
+            src={image3}
+            alt="imagem do consultório"
+            width={640}
+            className="w-full rounded-[10px]"
+          />
+        </SwiperSlide>
+      </Swiper>
+    </>
   )
 }
-
-export default Slider

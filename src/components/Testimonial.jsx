@@ -20,11 +20,17 @@ const Testimonial = ({
       </div>
       <div className="lg:w-1/2 pt-[20px]">
         <div className="flex flex-col gap-[30px]">
-          <img src={aspas} alt="" className="w-fit" />
+          <img src={aspas} width={64} height={64} alt="" className="w-fit" />
           <div className="flex flex-col gap-[10px] px-[0px] lg:px-[50px]">
             {children}
           </div>
-          <img src={aspas} alt="" className="w-fit rotate-180 self-end" />
+          <img
+            src={aspas}
+            width={64}
+            height={64}
+            alt=""
+            className="w-fit rotate-180 self-end"
+          />
         </div>
         <div className="mt-[30px]">
           <h3 className="text-bluePrimary text-[20px] font-bold">{nome}</h3>
@@ -40,6 +46,7 @@ const Testimonial = ({
           <img
             src={arrow}
             alt="arrow"
+            width={50}
             className="w-[40px] lg:w-[50px] object-cover rotate-180"
             onClick={scrollNext}
           />
