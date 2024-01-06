@@ -17,14 +17,17 @@ const PerguntasFrequentes = () => {
       </div>
       <div className="flex flex-col gap-[10px] text-darkGray">
         <Faq
+          delay={1}
           question="Como posso agendar uma consulta?"
           answer="Agendar uma consulta é simples. Você pode ligar para nosso escritório durante o horário comercial ou entrar em contato pelo whatsapp."
         />
         <Faq
+          delay={2}
           question="Quanto tempo dura um tratamento ortodôntico?"
           answer="A duração do tratamento ortodôntico varia, mas em média, pode levar de 12 a 24 meses. O tempo exato depende do caso individual de cada paciente."
         />
         <Faq
+          delay={3}
           question="É possível realizar procedimentos de emergência sem agendamento?"
           answer="Sim, em casos de emergência odontológica, encorajamos os pacientes a nos ligar imediatamente. Faremos o possível para acomodar situações urgentes."
         />
@@ -33,10 +36,12 @@ const PerguntasFrequentes = () => {
           answer="Além das consultas regulares, incentivamos práticas diárias de higiene bucal, como escovação adequada, uso de fio dental e enxaguante bucal. Nossa equipe oferecerá orientações personalizadas durante as consultas."
         />
         <Faq
+          delay={4}
           question="Qual é a política de cancelamento de consultas?"
           answer="Pedimos que os pacientes nos avisem com pelo menos 24 horas de antecedência em caso de cancelamento. Para cancelamentos tardios ou faltas, pode ser aplicada uma taxa."
         />
         <Faq
+          delay={5}
           question="Os tratamentos odontológicos são dolorosos?"
           answer="Utilizamos abordagens modernas e técnicas avançadas para minimizar o desconforto. A maioria dos procedimentos é realizada com anestesia local para garantir uma experiência tranquila."
         />
