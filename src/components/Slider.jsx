@@ -20,7 +20,8 @@ export default function Slider() {
           <img
             src={image1}
             alt="imagem do consultório"
-            width={640}
+            width={897}
+            height={500}
             className="w-full rounded-[10px]"
           />
         </SwiperSlide>
@@ -28,7 +29,8 @@ export default function Slider() {
           <img
             src={image2}
             alt="imagem do consultório"
-            width={640}
+            width={897}
+            height={500}
             className="w-full rounded-[10px]"
           />
         </SwiperSlide>
@@ -36,7 +38,8 @@ export default function Slider() {
           <img
             src={image3}
             alt="imagem do consultório"
-            width={640}
+            width={897}
+            height={500}
             className="w-full rounded-[10px]"
           />
         </SwiperSlide>

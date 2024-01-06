@@ -36,7 +36,13 @@ const Hero = () => {
           animate="show"
           className="lg:w-1/2 lg:flex flex-col justify-end"
         >
-          <img src={hero} alt="Doutora" className="w-full" />
+          <img
+            src={hero}
+            alt="Doutora"
+            width={963}
+            height={940}
+            className="w-full"
+          />
         </motion.div>
       </div>
     </section>

@@ -40,6 +40,8 @@ const Testimonial = ({
           <img
             src={arrow}
             alt="arrow"
+            width={50}
+            height={50}
             className="w-[40px] lg:w-[50px] object-cover"
             onClick={scrollPrev}
           />
@@ -47,6 +49,7 @@ const Testimonial = ({
             src={arrow}
             alt="arrow"
             width={50}
+            height={50}
             className="w-[40px] lg:w-[50px] object-cover rotate-180"
             onClick={scrollNext}
           />

@@ -39,6 +39,7 @@ const Navbar = () => {
         <img
           src={logo}
           width={120}
+          height={37}
           alt="tethcare logo"
           className="w-[120px] self-center lg:self-center"
         />

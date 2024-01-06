@@ -25,6 +25,7 @@ const CardEquipe = ({
           src={imgUrl}
           alt={title}
           width={923}
+          height={1053}
           className="w-full relative left-[2px] z-10"
         />
       </div>
