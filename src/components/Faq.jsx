@@ -1,51 +1,48 @@
 import { useState } from 'react'
-import { motion } from 'framer-motion'
 import arrow from '../assets/arrow.webp'
-import { fadeIn } from '../utils/motion'
+import { motion } from 'framer-motion'
 
-const Faq = ({ question, answer, delay }) => {
-  const [isOpen, setIsOpen] = useState(false)
+const Faq = ({ question, answer }) => {
+  const [isOpen, setisOpen] = useState(false)
+
+  const variants = {
+    initial: { height: 0, y: '-100%' },
+    animate: { height: '100%', y: 0 },
+    transition: { duration: 5, ease: 'easeInOut' },
+  }
 
   return (
-    <motion.div
-      variants={fadeIn('up', 'tween', 0.2, 0.5)}
-      initial="hidden"
-      whileInView="show"
+    <div
       className={`${
         isOpen ? 'bg-bluePrimary/50' : 'bg-bluePrimary/30'
       } flex flex-col px-[20px] py-[10px] rounded-[10px]`}
     >
-      <motion.div
+      <div
         className="flex items-center gap-[10px] justify-between cursor-pointer"
-        onClick={() => setIsOpen((state) => !state)}
+        onClick={() => setisOpen((state) => !state)}
       >
-        <motion.h3
-          variants={fadeIn('up', 'tween', 0.2 * delay, 1)}
-          className="text-[16px] sm:text-[18px] md:text-[20px] font-bold"
-        >
+        <h3 className="text-[16px] sm:text-[18px] md:text-[20px] font-bold">
           {question}
-        </motion.h3>
-        <motion.img
+        </h3>
+        <img
           src={arrow}
-          width={40}
-          height={40}
           alt="arrow"
           className={`${
             isOpen ? 'rotate-[270deg]' : 'rotate-180'
           } scale-75 transition-all`}
         />
-      </motion.div>
+      </div>
       {isOpen && (
         <motion.div
-          variants={fadeIn('down', 'tween', 0, 0.3)}
-          initial="hidden"
-          animate="show"
+          variants={variants}
+          initial="initial"
+          animate="animate"
           className="pr-[50px] py-[10px]"
         >
           <p>{answer}</p>
         </motion.div>
       )}
-    </motion.div>
+    </div>
   )
 }
 

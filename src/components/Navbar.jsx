@@ -18,7 +18,6 @@ const Navbar = () => {
 
   const handleScroll = () => {
     setScrollY(window.scrollY)
-    console.log(window.scrollY)
   }
 
   useEffect(() => {
@@ -33,7 +32,7 @@ const Navbar = () => {
     <div>
       <div
         className={`fixed max-w-[1440px] transition-bg ${
-          scrollY >= 600 ? 'bg-bluePrimary/50' : 'bg-transparent'
+          scrollY >= 600 ? 'bg-bluePrimary' : 'bg-transparent'
         } z-40 flex items-center justify-between w-full px-[20px] sm:px-[50px] h-[50px]`}
       >
         <img
